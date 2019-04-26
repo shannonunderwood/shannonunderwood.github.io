@@ -1,0 +1,101 @@
+.header {
+    background-color: black;
+    height: 175px;
+}
+.header img {
+    padding-top: 35px;
+}
+.logo {
+    padding-bottom: 30px;
+}
+nav {
+    padding-top: 60px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: Helvetica, sans-serif;
+}
+.heading h1 {
+    font-family: 'Audiowide', cursive;
+}
+.heading h2 {
+    font-family: 'Audiowide', cursive;
+}
+.heading h3 {
+    font-family: 'Audiowide', cursive;
+}
+.heading h4 {
+    font-family: 'Audiowide', cursive;
+}
+.heading h5 {
+    font-family: 'Audiowide', cursive;
+}
+.heading h6 {
+    font-family: 'Audiowide', cursive;
+}
+p {
+    font-family: Helvetica, sans-serif;
+    width: 400px;
+}
+blockquote {
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+blockquote p {
+    font-family: 'Audiowide', cursive;
+    padding: 20px;
+}
+.icons img {
+    width: 50px;
+}
+.color {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+.white {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+}
+.ltgrey {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #ababbe;
+}
+.grey {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+}
+.black {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+button {
+    width: 150px;
+}
+.line {
+    border-left: 5px solid black;
+    height: 200px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    font-family: 'Audiowide', cursive;
+}

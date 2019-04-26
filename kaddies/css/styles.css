@@ -1,0 +1,166 @@
+.container-fluid {
+    padding: 0;
+}
+h1, h2 {
+    font-family: "Bowlby One SC", cursive;
+}
+h3, h4 {
+    font-family: "Avenir Next", sans-serif;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+}
+li {
+    font-family: "Raleway", sans-serif;
+    padding-top: 10px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.callout {
+    text-align: right;
+}
+
+.main-img {
+    background-image: url("../img/goodvibes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.title {
+    font-size: 500%;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+.ham {
+    padding-top: 20px;
+}
+.parallax {
+    background-image: url("../img/change.jpg");
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-2 {
+    background-image: url("../img/bags.jpg");
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-3 {
+    background-image: url("../img/minneapolis.jpg");
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navigation */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+    font-size: 40px;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+.copy {
+    padding: 100px 50px;
+}
+.email {
+    width: 50%;
+    margin: 0 auto;
+}
+.team-img {
+    padding-bottom: 25px;
+}
+.btn-light {
+    width: 100px;
+}
+.partners a img:hover {
+    width: 110%;
+    transform: scale(1.15);
+}
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 375%;
+    }
+    .ham {
+        padding-top: 10px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    .justify {
+        text-align: left;
+    }
+    .callout {
+        text-align: left;
+    }
+    .email {
+        width: 90%;
+    }
+}
+
+@media (max-width: 420px) {
+    .title {
+        font-size: 275%;
+        padding-top: 10px;
+    }
+    .email {
+        width: 100%;
+    }
+}

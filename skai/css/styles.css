@@ -1,0 +1,376 @@
+.splash {
+    background-image: url(../img/skai-backsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.drones-basic {
+    background-image: url(../img/basic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.drones-deluxe {
+    background-image: url(../img/deluxe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.drones-luxury {
+    background-image: url(../img/luxury.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.logo {
+    width: 50%;
+    padding: 100px 0;
+}
+.container-fluid {
+    padding: 0;
+}
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+.navbar .btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+}
+.navbar {
+    padding: 0;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.btn-info {
+    background-color: black;
+    border: none;
+}
+.btn-info:hover {
+    background-color: slategray;
+}
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    z-index: 999;
+    background: black;
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    font-size: 2em;
+    line-height: 35px;
+    text-align: center;
+    background: black;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#dismiss:hover {
+    color: slategray;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: black;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: slategray;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: slategray;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: black;
+}
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+h1 {
+    font-family: 'Audiowide', cursive;
+}
+h2 {
+    font-family: 'Audiowide', cursive;
+}
+h3 {
+    font-family: 'Audiowide', cursive;
+    color: white;
+}
+h4 {
+    font-family: "Avenir Next", sans-serif;
+}
+h5 {
+    font-family: 'Audiowide', cursive;
+}
+h6 {
+    font-family: 'Audiowide', cursive;
+}
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: white;
+}
+label {
+    color: white;
+}
+#content {
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.head-img {
+    width: 100%;
+    height: 100%;
+}
+.sign-in {
+    padding: 5% 5% 50% 5%;
+    margin: 0 auto;
+}
+.sign-up {
+    color: white;
+}
+form {
+  padding-right: 20px;
+}
+.form-control {
+    border-radius: .75rem;
+}
+.btn {
+    border-radius: .75rem;
+}
+#quote {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.card {
+    border-radius: .75rem;
+    text-align: center;
+}
+.card-image {
+    width: 150px;
+    padding: 20px 10px 0 20px;
+}
+.card-title {
+    color: #333333;
+}
+.card-title:hover {
+    color: slategray;
+}
+.card-text {
+    color: slategray;
+}
+.main {
+    background-color: black;
+    padding: 50px;
+}
+.footer img {
+    width: 80px;
+    height: 80px;
+    padding-left: 30px;
+}
+.footer p {
+    padding-left: 40px;
+}
+.map {
+    text-align: center;
+}
+.flight {
+    width: 100%;
+    padding: 10%;
+}
+.request {
+    background-color: black;
+    color: white;
+}
+.btn-light:hover  {
+    background-color: slategray;
+    color: white;
+}
+
+.card-image:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transition: all 0.8s ease-in-out 0s;
+}
+.questions {
+padding: 150px 50px;
+
+}
+.drone {
+width: 100%;
+}
+.space {
+padding: 50px;
+}
+.star {
+    width: 50%;
+    height: 50%;
+}
+.drone-title:hover {
+    color: slategray;
+}
+
+.profile-photo {
+    width: 500px;
+    height: 500px;
+    padding: 100px;
+    margin: 0 auto;
+}
+.black {
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+.info {
+    padding: 50px 0 50px 100px;
+
+}
+.credit {
+   width: 30%;
+   margin: 0 auto;
+   padding: 100px 0 50px 0;
+}
+.card-info {
+    padding: 50px;
+}
+/*media queries*/
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    .sign-in {
+        padding-left: 10%;
+    }
+    .drone {
+        padding-bottom: 20px;
+    }
+    .logo {
+        width: 75%;
+    }
+    .profile-photo {
+        width: 400px;
+        height: 400px;
+    }
+    .info {
+        padding: 50px;
+    }
+    h4 {
+        font-size: 1.25rem;
+    }
+    .credit {
+        width: 300px;
+    }
+}
+@media (max-width: 1192px) {
+    p {
+        font-size: .9rem;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+}
