@@ -332,6 +332,13 @@ padding: 50px;
 .card-info {
     padding: 50px;
 }
+.tracker {
+    width: 30%;
+}
+.support {
+    color: white;
+    padding: 150px 50px;
+}
 /*media queries*/
 
 @media (max-width: 768px) {
@@ -372,5 +379,7 @@ padding: 50px;
 }
 
 @media (max-width: 450px) {
-
+    h2 {
+        font-size: 1.5rem;
+    }
 }
